@@ -1,0 +1,38 @@
+{
+  "name": "depot/aggregate-root-support",
+  "description": "Depot Support Implementation for Aggregate Roots",
+  "license": "MIT",
+  "homepage": "http://depot.io",
+  "authors": [
+    {
+      "name": "Beau Simensen",
+      "email": "beau@dflydev.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Depot\\AggregateRoot\\Support\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "depot/contract": "^0.0@dev",
+    "depot/event-store": "^0.0@dev",
+    "depot/aggregate-root": "^0.0@dev"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Depot\\Testing\\Unit\\AggregateRoot\\Support\\": "tests/unit"
+    }
+  },
+  "require-dev": {
+    "depot/testing-fixtures": "^0.0@dev",
+    "phpunit/phpunit": "^6.5",
+    "squizlabs/php_codesniffer": "^2.3"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.x-dev"
+    }
+  }
+}
