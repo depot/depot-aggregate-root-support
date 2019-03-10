@@ -7,35 +7,35 @@ interface Reading
     /**
      * @return object
      */
-    public function getAggregateEvent();
+    public function getAggregateRootEvent();
 
     /**
      * @return object
      */
-    public function getAggregateMetadata();
+    public function getAggregateRootMetadata();
 
     /**
      * @return bool
      */
-    public function getCanReadAggregateEventId();
+    public function getCanReadAggregateRootEventId();
 
     /**
      * @return object
      */
-    public function getAggregateEventId();
+    public function getAggregateRootEventId();
 
     /**
      * @return bool
      */
-    public function getCanReadAggregateEventVersion();
+    public function getCanReadAggregateRootEventVersion();
 
     /**
      * @return object
      */
-    public function getAggregateEventVersion();
+    public function getAggregateRootEventVersion();
 
     /**
      * @return object
      */
-    public function getAggregateEventWhen();
+    public function getAggregateRootEventWhen();
 }
