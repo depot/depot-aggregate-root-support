@@ -7,5 +7,5 @@ interface Writing
     /**
      * @return static
      */
-    public static function instantiateAggregateChangeFromEventAndMetadata();
+    public static function instantiateChangeFromEventAndMetadata();
 }
