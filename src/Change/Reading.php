@@ -1,8 +1,8 @@
 <?php
 
-namespace Depot\AggregateRoot\Support\ChangeReading;
+namespace Depot\AggregateRoot\Support\Change;
 
-interface AggregateRootChangeReading
+interface Reading
 {
     /**
      * @return object

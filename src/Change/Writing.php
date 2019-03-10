@@ -1,8 +1,8 @@
 <?php
 
-namespace Depot\AggregateRoot\Support\ChangeWriting;
+namespace Depot\AggregateRoot\Support\Change;
 
-interface AggregateRootChangeWriting
+interface Writing
 {
     /**
      * @return static
